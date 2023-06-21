@@ -24,6 +24,33 @@
             {
                 Console.WriteLine("You guessed it!!!");
             }
+
+            //Exercise 2
+
+            Console.WriteLine("What is your favorite school subject?");
+            var favSubject = Console.ReadLine();
+
+            switch(favSubject.ToLower())
+            {
+                case "math":
+                    Console.WriteLine("Math is your favorite school subject.");
+                    break;
+                case "english":
+                    Console.WriteLine("English is your favorite school subject.");
+                    break;
+                case "science":
+                    Console.WriteLine("Science is your favorite school subject.");
+                    break;
+                case "social Studies":
+                    Console.WriteLine("Social Studies is your favorite school subject.");
+                    break;
+                case "spanish":
+                    Console.WriteLine("Spanish is your favorite school subject.");
+                    break;
+                default:
+                    Console.WriteLine("You have no favorite school subject.");
+                    break;
+            }
         }
     }
 }
